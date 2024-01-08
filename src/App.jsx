@@ -3,7 +3,7 @@ import Hero from "./Components/Hero";
 import { ToastContainer, toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 import Footer from "./Components/Footer";
-import { Analytics } from '@vercel/analytics/react';
+// import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
   const [username, setUsername] = useState("");
@@ -327,7 +327,7 @@ const App = () => {
         </div>
       </div>
       <Footer/>
-      <Analytics />
+     
     </>
   );
 };
