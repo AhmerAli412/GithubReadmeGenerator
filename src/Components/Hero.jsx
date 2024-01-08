@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="relative">
       {/* Navbar */}
       <nav className="bg-gray-900 p-4 flex justify-between items-center">
-        <div className="text-white ml-16 font-bold text-4xl">ReadMe</div>
+        <div className="text-white font-serif ml-16 font-bold text-4xl">ReadMe</div>
         <a
           href="https://github.com/AhmerAli412/GithubReadmeGenerator"
           target="_blank"
