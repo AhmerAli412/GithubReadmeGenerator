@@ -1,7 +1,8 @@
 import React, { useState, useRef } from "react";
-import Hero from "./Hero";
+import Hero from "./Components/Hero";
 import { ToastContainer, toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
+import Footer from "./Components/Footer";
 
 const App = () => {
   const [username, setUsername] = useState("");
@@ -313,7 +314,7 @@ const App = () => {
 
 <button
             onClick={() => copyToClipboard()}
-            className="bg-indigo-500 text-white px-4 py-2 rounded hover:bg-blue-700 mr-4"
+            className="bg-indigo-500 text-white mt-5 px-4 py-2 rounded hover:bg-blue-700 mr-4"
           >
             Copy to Clipboard 📋
           </button>
@@ -324,6 +325,7 @@ const App = () => {
 
         </div>
       </div>
+      <Footer/>
     </>
   );
 };
