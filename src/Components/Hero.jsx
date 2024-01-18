@@ -4,7 +4,7 @@ import screen3 from '../assets/screen3.png'
 const Hero = () => {
   return (
     <div className="relative">
-      {/* Navbar */}
+    
       <nav className="bg-gray-900 p-4 flex justify-between items-center">
         <div className="text-white from-inherit ml-16 font-bold text-4xl">ReadMe</div>
         <a
